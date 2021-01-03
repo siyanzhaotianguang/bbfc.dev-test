@@ -228,69 +228,6 @@ section {
 }
 /*----- global 全局 end------*/
 
-/*---- header begin-----*/
-header {
-  position: sticky;
-  top: 0;
-  height: 80px;
-  min-height: 80px;
-  max-height: 106.66px;
-  background-color: rgba(255, 255, 255, 1);
-}
-.header-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.logo {
-  display: flex;
-  align-items: center;
-}
-nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.nav-item {
-  margin-left: 48px;
-  height: 25px;
-  font-family: PingFangSC-Regular, helvetica neue, arial, hiragino sans gb,
-    microsoft yahei ui, microsoft yahei, simsun, sans-serif;
-  font-size: 16px;
-  color: #131313;
-  cursor: pointer;
-  border-bottom: 2px solid transparent;
-  transition: border 0.6s;
-}
-.nav-item:hover {
-  border-bottom: 2px solid #4a78f7;
-}
-.search {
-  display: flex;
-  align-items: center;
-  margin-left: 48px;
-  margin-right: -18px;
-}
-.search-input {
-  height: 25px;
-  border: 1px solid #131313;
-  padding: 2px 32px 2px 17px;
-  border-radius: 12.5px;
-}
-input:focus {
-  outline: none;
-}
-.submit {
-  background: url(assets/ico_navigation_bar_search.png) no-repeat center #fff;
-  border: 0px;
-  height: 18px;
-  width: 18px;
-  cursor: pointer;
-  position: relative;
-  left: -28px;
-}
-/* -----header end------ */
-
 /* -----banner&developer-group begin------ */
 .developer-group .content,
 .banner .content {
