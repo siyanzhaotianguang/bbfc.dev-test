@@ -1,118 +1,166 @@
 <template>
-  <main class="home" aria-labelledby="main-title">
+  <main>
     <div class="banner">
       <h1>BFChain开发者社区</h1>
       <p>为开发者提供全方位服务和工具，帮助构建区块链生态体系。</p>
     </div>
-    <div class="feature-list">
-      <div class="title">
-        <h1>什么是生物链林?</h1>
-        <p>信用而生，缔造人人可信的信用时代</p>
-      </div>
-      <div class="item">
-        <image src="/01.jpg" />
-        <p>全球首款移动公有链</p>
-      </div>
-      <div class="item">
-        <image src="/02.jpg" />
-        <p>移动区块链底层协议</p>
-      </div>
-      <div class="item">
-        <image src="/03.jpg" />
-        <p>
-          构建移动端底层公链 BFChain、<br />
-          社交链 FINChain、联盟数据版
-        </p>
-      </div>
-      <div class="item">
-        <image src="/04.jpg" />
-        <p>自成体系、跨链特性互有关联</p>
-      </div>
-    </div>
-    <div class="hero">
-      <div class="desc">
-        <h1>BFChain开发者社区是？</h1>
-        <p>
-          BFChain开发者社区是一个在 BFChain 上开发和构建<br />
-          应用程序所需工具的地方，包含开发者所需相关资源<br />
-          的汇集地。
-        </p>
-      </div>
-      <image src="/05.jpg" />
-    </div>
-    <div class="feature-list">
-      <div class="title">
-        <h1>开发者工具</h1>
-        <p>DEVELOPER TOOL</p>
-      </div>
-      <div class="item">
-        <image src="/06.jpg" />
-        <h2>BFS</h2>
-        <p>BFChain System</p>
-      </div>
-      <div class="item">
-        <image src="/07.jpg" />
-        <h2>五敲</h2>
-        <p>去中心化协作工具</p>
-      </div>
-      <div class="item">
-        <image src="/08.jpg" />
-        <h2>开发者 SDK</h2>
-        <p>
-          接入到生物链林的入口
-        </p>
-      </div>
-      <div class="item">
-        <image src="/09.jpg" />
-        <h2>超级终端</h2>
-        <p>移动设备管理节点</p>
-      </div>
-    </div>
-    <div class="recommend">
-      <div class="title">
-        <h1>开发者工具</h1>
-        <p>DEVELOPER TOOL</p>
-      </div>
+    <section class="forest">
       <div class="content">
-        <a class="item" href="#">
-          <image src="/recommend/01.jpg" />
-          <h2>BFChain3.1.0支持的操作系统</h2>
-          <p>
-            下表提供了 BFChain 支持的操作系统版本信息 Windows BFChain 3.1.0
-            Windows 支持信息 Windows BFChain 3.1.0 Windows 支持
-          </p>
-        </a>
-        <a class="item" href="#">
-          <image src="/recommend/01.jpg" />
-          <h2>BFChain3.1.0支持的操作系统</h2>
-          <p>
-            下表提供了 BFChain 支持的操作系统版本信息 Windows BFChain 3.1.0
-            Windows 支持信息 Windows BFChain 3.1.0 Windows 支持
-          </p>
-        </a>
-        <a class="item" href="#">
-          <image src="/recommend/01.jpg" />
-          <h2>BFChain3.1.0支持的操作系统</h2>
-          <p>
-            下表提供了 BFChain 支持的操作系统版本信息 Windows BFChain 3.1.0
-            Windows 支持信息 Windows BFChain 3.1.0 Windows 支持
-          </p>
-        </a>
-        <a class="item" href="#">
-          <image src="/recommend/01.jpg" />
-          <h2>BFChain3.1.0支持的操作系统</h2>
-          <p>
-            下表提供了 BFChain 支持的操作系统版本信息 Windows BFChain 3.1.0
-            Windows 支持信息 Windows BFChain 3.1.0 Windows 支持
-          </p>
-        </a>
+        <div class="title">什么是生物链林?</div>
+        <div class="description">信用而生，缔造人人可信的信用时代</div>
+        <div class="detail">
+          <div class="detail-item">
+            <div class="img feature-1"></div>
+            <div class="detail-des">
+              全球首款移动公有链
+            </div>
+          </div>
+          <div class="detail-item">
+            <div class="img feature-2"></div>
+            <div class="detail-des">
+              移动区块链底层协议
+            </div>
+          </div>
+          <div class="detail-item">
+            <div class="img feature-3"></div>
+            <div class="detail-des">
+              构建移动端底层公链BFChain、社交链FINChain、联盟链数据版
+            </div>
+          </div>
+          <div class="detail-item">
+            <div class="img feature-4"></div>
+            <div class="detail-des">
+              自成体系，跨链特性互有关联
+            </div>
+          </div>
+        </div>
       </div>
-      <a href="#" class="more">了解更多 > </a>
-    </div>
-    <div class="footer-wrap">
-      <div class="footer"></div>
-    </div>
+    </section>
+    <section class="developer-group">
+      <div class="content">
+        <div class="developer-group-left">
+          <div class="title">BFChain开发者社区是?</div>
+          <div class="description">
+            BFChain开发者社区是一个在BFChain上开发和构建应用程序所需工具的地方,包含开发者所需相关资源的汇集地。
+          </div>
+        </div>
+        <div class="developer-group-right">
+          <div class="img"></div>
+        </div>
+      </div>
+    </section>
+    <section class="developer-tool">
+      <div class="content">
+        <div class="title">开发者工具</div>
+        <div class="description">DEVELOPER TOOL</div>
+        <div class="tool">
+          <div class="tool-item">
+            <div class="img bfs">
+              <!-- <img src="/assets/1BFS.png" alt=""> -->
+            </div>
+            <div class="tool-item-name">
+              BFS
+            </div>
+            <div class="tool-des">
+              Bioforest Chain System
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="img five-click">
+              <!-- <img src="/assets/2五敲.png" alt=""> -->
+            </div>
+            <div class="tool-item-name">
+              五敲
+            </div>
+            <div class="tool-des">
+              分布式协作工具
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="img sdk">
+              <!-- <img src="/assets/3开发者SDK.png" alt=""> -->
+            </div>
+            <div class="tool-item-name">
+              开发者SDK
+            </div>
+            <div class="tool-des">
+              区块链编程的软件开发工具包
+            </div>
+          </div>
+          <div class="tool-item">
+            <div class="img terminal">
+              <!-- <img src="/assets/4超级终端.png" alt=""> -->
+            </div>
+            <div class="tool-item-name">
+              超级终端
+            </div>
+            <div class="tool-des">
+              区块链跨平台集成开发环境
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="recommend">
+      <div class="content">
+        <div class="title">推荐</div>
+        <div class="description">RECOMMEND</div>
+        <div class="recommend-articles">
+          <div class="recommend-item">
+            <div class="img"></div>
+            <div class="recommend-item-name">
+              BFChain3.1.0支持的操作系统sdfsdfs
+            </div>
+            <div class="recommend-item-des">
+              下表提供了BFChain支持的操作系统版本信息 Windows BFChain 3.1.0
+              Windows支持哈哈哈哈哈哈哈哈哈哈
+            </div>
+          </div>
+          <div class="recommend-item">
+            <div class="img"></div>
+            <div class="recommend-item-name">
+              BFChain3.1.0支持的操作系统ssss
+            </div>
+            <div class="recommend-item-des">
+              下表提供了BFChain支持的操作系统版本信息 Windows BFChain 3.1.0
+              Windows支持哈哈哈哈哈哈哈哈哈哈
+            </div>
+          </div>
+          <div class="recommend-item">
+            <div class="img"></div>
+            <div class="recommend-item-name">
+              BFChain3.1.0支持的操作系统
+            </div>
+            <div class="recommend-item-des">
+              下表提供了BFChain支持的操作系统版本信息 Windows BFChain 3.1.0
+              Windows支持...
+            </div>
+          </div>
+          <div class="recommend-item">
+            <div class="img"></div>
+            <div class="recommend-item-name">
+              BFChain3.1.0支持的操作系统
+            </div>
+            <div class="recommend-item-des">
+              下表提供了BFChain支持的操作系统版本信息 Windows BFChain 3.1.0
+              Windows支持...
+            </div>
+          </div>
+        </div>
+        <a class="more" href="#">了解更多 ></a>
+      </div>
+    </section>
   </main>
+  <footer>
+    <div class="content footer-content">
+      <div class="footer-copyright">
+        <span>版权所有 © BFChain开发者社区</span>
+      </div>
+      <div class="footer-law">
+        <!-- <span><a href="#">隐私政策</a></span> -->
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script setup lang="ts"></script>
@@ -120,7 +168,6 @@
 <style scoped>
 .home {
   padding-top: var(--header-height);
-  background: #f60;
 }
 .banner {
   height: 480px;
@@ -132,5 +179,451 @@
   color: #fff;
   justify-content: space-around;
   padding: 180px 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+  /* fontsize: 6.94444444vw; */
+}
+body {
+  width: 100%;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* -----main global begin------- */
+main {
+  width: 100%;
+}
+header,
+section,
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section {
+  height: 480px;
+  max-height: 480px;
+  background-color: #fbfbfb;
+}
+/* -----main global end------- */
+.content {
+  width: 1024px;
+  max-width: 1366px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  font-weight: bold;
+}
+/*----- global 全局 end------*/
+
+/*---- header begin-----*/
+header {
+  position: sticky;
+  top: 0;
+  height: 80px;
+  min-height: 80px;
+  max-height: 106.66px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 48px;
+  height: 25px;
+  font-family: PingFangSC-Regular, helvetica neue, arial, hiragino sans gb,
+    microsoft yahei ui, microsoft yahei, simsun, sans-serif;
+  font-size: 16px;
+  color: #131313;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border 0.6s;
+}
+.nav-item:hover {
+  border-bottom: 2px solid #4a78f7;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 48px;
+  margin-right: -18px;
+}
+.search-input {
+  height: 25px;
+  border: 1px solid #131313;
+  padding: 2px 32px 2px 17px;
+  border-radius: 12.5px;
+}
+input:focus {
+  outline: none;
+}
+.submit {
+  background: url(assets/ico_navigation_bar_search.png) no-repeat center #fff;
+  border: 0px;
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+  position: relative;
+  left: -28px;
+}
+/* -----header end------ */
+
+/* -----banner&developer-group begin------ */
+.developer-group .content,
+.banner .content {
+  display: flex;
+}
+.developer-group-left,
+.developer-group-right,
+.banner-left,
+.banner-right {
+  width: 50%;
+}
+
+.developer-group-left,
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.developer-group-left div,
+.banner-left div {
+  margin-left: 100px;
+}
+.developer-group-left .title,
+.banner-left .title {
+  line-height: 50px;
+  font-family: PingFangSC-Semibold;
+  font-size: 36px;
+  color: #131313;
+  letter-spacing: 0;
+}
+.developer-group-left .title {
+  line-height: 33px;
+  font-size: 28px;
+}
+.developer-group-left .description,
+.banner-left .description {
+  margin-top: 8px;
+  padding-left: 2px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #131313;
+}
+.developer-group-left .description {
+  width: 320px;
+}
+
+.developer-group-right .img,
+.banner-right .img {
+  width: 400px;
+  height: 300px;
+  background: #d8d8d8;
+  margin: 70px 90px 110px auto;
+}
+
+.developer-group-right .img {
+  margin: 90px 90px 90px auto;
+}
+/* -----banner&developer-group end------ */
+
+/* -----forest begin----- */
+.forest {
+  background-color: #fff;
+}
+.forest .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.forest .title {
+  line-height: 40px;
+  margin-top: 74px;
+  margin-bottom: 8px;
+  font-family: PingFangSC-Semibold;
+  font-size: 28px;
+  color: #131313;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.forest .description {
+  height: 26px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #131313;
+  text-align: center;
+}
+
+.forest .detail {
+  display: flex;
+  justify-content: space-around;
+}
+
+.detail .detail-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.detail-item .img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 34px;
+  /* background: #D8D8D8; */
+  background: url(/assets/forest/1.png) no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.detail-item .feature-2 {
+  background-image: url(/assets/forest/2.png);
+}
+
+.detail-item .feature-3 {
+  background-image: url(/assets/forest/3.png);
+}
+
+.detail-item .feature-4 {
+  background-image: url(/assets/forest/4.png);
+}
+
+.detail-item .detail-des {
+  width: 205px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #131313;
+  text-align: center;
+}
+
+/* -----forest end----- */
+
+/* -----developer-tool begin----- */
+
+.developer-tool {
+  background-color: #fff;
+}
+.developer-tool .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.developer-tool .title {
+  height: 33px;
+  margin-top: 60px;
+  margin-bottom: 4px;
+  font-family: PingFangSC-Semibold;
+  font-size: 24px;
+  color: #131313;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.developer-tool .description {
+  height: 26px;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+.developer-tool .tool {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tool .tool-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.tool-item .img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 17px;
+  /* background: #D8D8D8; */
+  background: url(/assets/tools/1.png) no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.tool-item .five-click {
+  background-image: url(/assets/tools/2.png);
+}
+
+.tool-item .sdk {
+  background-image: url(/assets/tools/3.png);
+}
+
+.tool-item .terminal {
+  background-image: url(/assets/tools/4.png);
+}
+
+.img img {
+  width: 100%;
+}
+
+.tool-item .tool-item-name {
+  line-height: 22px;
+  margin-bottom: 5px;
+  font-family: PingFangSC-Semibold;
+  font-size: 16px;
+  font-weight: bold;
+  color: #131313;
+  text-align: center;
+}
+
+.tool-item .tool-des {
+  width: 205px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #131313;
+  text-align: center;
+}
+
+/* -----developer-tool end----- */
+
+/* -----recommend begin----- */
+
+.recommend {
+}
+.recommend .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.recommend .title {
+  height: 33px;
+  margin-top: 60px;
+  margin-bottom: 4px;
+  font-family: PingFangSC-Semibold;
+  font-size: 24px;
+  color: #131313;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.recommend .description {
+  height: 26px;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+}
+
+.recommend .recommend-articles {
+  width: 934px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommend-articles .recommend-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.recommend-item .img {
+  width: 216px;
+  height: 130px;
+  margin-bottom: 20px;
+  background: #d8d8d8;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.recommend-item .img:hover {
+  transform: scale(1.04);
+  z-index: 999;
+}
+
+.recommend-item .recommend-item-name {
+  width: 216px;
+  line-height: 22px;
+  margin-bottom: 6px;
+  font-family: PingFangSC-Semibold;
+  font-size: 16px;
+  font-weight: bold;
+  color: #131313;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recommend-item .recommend-item-des {
+  width: 216px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #131313;
+  text-align: left;
+  overflow: hidden;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.recommend .more {
+  margin-top: 35px;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #4a78f7;
+  text-decoration: none;
+}
+/* -----recommend end----- */
+
+footer {
+  height: 80px;
+  margin-top: 60px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #131313;
+}
+
+.footer-law a {
+  font-family: PingFangSC-Regular;
+  font-size: 16px;
+  color: #131313;
+  text-align: right;
+  text-decoration: none;
 }
 </style>
