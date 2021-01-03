@@ -45,7 +45,9 @@
           </div>
         </div>
         <div class="developer-group-right">
-          <div class="img"></div>
+          <div class="img">
+            <img src="/dev-community.png" />
+          </div>
         </div>
       </div>
     </section>
@@ -278,7 +280,6 @@ section {
 .banner-right .img {
   width: 400px;
   height: 300px;
-  background: #d8d8d8;
   margin: 70px 90px 110px auto;
 }
 
