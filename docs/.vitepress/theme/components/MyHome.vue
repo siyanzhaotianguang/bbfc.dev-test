@@ -173,6 +173,9 @@
   --c-brand-light: #5688ff;
   --docsearch-primary-color: #4a78f7;
 }
+.logo{
+  height: 100% !important;
+}
 .DocSearch{
   --docsearch-primary-color:var(--docsearch-primary-color) !important;
   --docsearch-highlight-color:var(--docsearch-primary-color) !important;
