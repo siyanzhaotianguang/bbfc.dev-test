@@ -171,7 +171,7 @@
 :root {
   --c-brand: #4a78f7;
   --c-brand-light: #5688ff;
-  --docsearch-primary-color: #4a78f7;
+  --docsearch-primary-color: #4a78f7 !important;
 }
 .DocSearch{
   --docsearch-highlight-color:var(--docsearch-primary-color);
