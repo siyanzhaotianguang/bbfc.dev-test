@@ -1,5 +1,6 @@
 module.exports = {
   lang: 'zh-CN',
+  logo: '/logo.png',
   title: 'BFChain 开发者社区',
   description: '为开发者提供全方位服务和工具，帮助构建区块链生态体系。',
 
@@ -36,7 +37,7 @@ module.exports = {
   }
 }
 
-function getGuideSidebar () {
+function getGuideSidebar() {
   return [
     {
       text: '指南',
@@ -52,7 +53,7 @@ function getGuideSidebar () {
   ]
 }
 
-function getAPISidebar () {
+function getAPISidebar() {
   return [
     {
       text: '接口列表',
