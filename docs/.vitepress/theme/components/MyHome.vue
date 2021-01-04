@@ -173,14 +173,11 @@
   --c-brand-light: #5688ff;
   --docsearch-primary-color: #4a78f7;
 }
-.nav-bar-title>*{
-  display:none;
-}
-.nav-bar-title>img{
-  display:block;
-}
-.logo{
-  height: 100% !important;
+.nav-bar-title{
+  text-indent:-9999px;
+  width:175px;
+  height:37px;
+  background:url(/logo.png)
 }
 .DocSearch{
   --docsearch-primary-color:var(--docsearch-primary-color) !important;

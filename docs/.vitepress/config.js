@@ -6,7 +6,6 @@ module.exports = {
   themeConfig: {
     repo: 'implement-bfchain-org/bbfc.dev-test',
     docsDir: 'docs',
-    logo: '/logo.png',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑',
     lastUpdated: '最近更新',
