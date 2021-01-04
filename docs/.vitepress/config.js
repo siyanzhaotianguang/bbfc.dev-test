@@ -13,7 +13,7 @@ module.exports = {
 
     algolia: {
       apiKey: '5d42198c0c46b52f3bb45b0185a72c45',
-      indexName: 'bfccdev'
+      indexName: 'vitepress'
     },
 
     // carbonAds: {
