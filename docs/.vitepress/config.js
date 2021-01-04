@@ -10,10 +10,10 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑',
     lastUpdated: '最近更新',
 
-    algolia: {
-      apiKey: '5d42198c0c46b52f3bb45b0185a72c45',
-      indexName: 'vitepress'
-    },
+    // algolia: {
+    //   apiKey: '5d42198c0c46b52f3bb45b0185a72c45',
+    //   indexName: 'vitepress'
+    // },
 
     // carbonAds: {
     //   carbon: 'CEBDT27Y',
@@ -23,9 +23,10 @@ module.exports = {
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '指南', link: '/01.guide/01.intro' },
-      { text: 'API', link: '/02.api/' },
-      { text: '问答', link: 'https://qa.bfcc.dev/' }
+      { text: '博客', link: '/blog' },
+      { text: '教程', link: '/01.guide/01.intro' },
+      { text: 'API 参考', link: '/02.api/' },
+      { text: '社区问答', link: 'https://qa.bfcc.dev/' }
     ],
 
     sidebar: {
