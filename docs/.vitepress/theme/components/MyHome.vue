@@ -165,9 +165,15 @@
   </footer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <style scoped>
+:root{
+  --c-brand: '#4A78F7';
+  --c-brand-light: '#5688ff';
+  --docsearch-primary-color:'#4A78F7';
+}
 .home {
   padding-top: var(--header-height);
 }
@@ -214,7 +220,7 @@ footer {
 section {
   height: 480px;
   max-height: 480px;
-  background-color: #fbfbfb;
+  background-color: rgb(250,250,250);
 }
 /* -----main global end------- */
 .content {
