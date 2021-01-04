@@ -168,12 +168,14 @@
 <script setup lang="ts">
 </script>
 
-<style scoped>
+<style global>
 :root{
-  --c-brand: '#4A78F7';
-  --c-brand-light: '#5688ff';
-  --docsearch-primary-color:'#4A78F7';
+  --c-brand: #4A78F7;
+  --c-brand-light: #5688ff;
+  --docsearch-primary-color:#4A78F7;
 }
+</style>
+<style scoped>
 .home {
   padding-top: var(--header-height);
 }
