@@ -23,7 +23,7 @@ module.exports = {
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '博客', link: '/blog' },
+      { text: '博客', link: '/blog/' },
       { text: '教程', link: '/01.guide/01.intro' },
       { text: 'API 参考', link: '/02.api/' },
       { text: '社区问答', link: 'https://qa.bfcc.dev/' }
@@ -36,7 +36,7 @@ module.exports = {
   }
 }
 
-function getGuideSidebar() {
+function getGuideSidebar () {
   return [
     {
       text: '指南',
@@ -52,7 +52,7 @@ function getGuideSidebar() {
   ]
 }
 
-function getAPISidebar() {
+function getAPISidebar () {
   return [
     {
       text: '接口列表',
