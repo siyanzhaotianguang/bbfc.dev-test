@@ -410,7 +410,6 @@ section {
   /* background: #D8D8D8; */
   background: url(/assets/tools/1.png) no-repeat;
   background-size: cover;
-  border-radius: 50%;
 }
 
 .tool-item .five-click {
