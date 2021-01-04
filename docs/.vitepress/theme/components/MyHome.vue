@@ -165,15 +165,13 @@
   </footer>
 </template>
 
-<script setup lang="ts">
-document
-</script>
+<script setup lang="ts"></script>
 
 <style global>
-:root{
-  --c-brand: #4A78F7;
+:root {
+  --c-brand: #4a78f7;
   --c-brand-light: #5688ff;
-  --docsearch-primary-color:#4A78F7;
+  --docsearch-primary-color: #4a78f7;
 }
 .DocSearch{
   --docsearch-highlight-color:var(--docsearch-primary-color);
@@ -226,7 +224,7 @@ footer {
 section {
   height: 480px;
   max-height: 480px;
-  background-color: rgb(250,250,250);
+  background-color: rgb(250, 250, 250);
 }
 /* -----main global end------- */
 .content {
