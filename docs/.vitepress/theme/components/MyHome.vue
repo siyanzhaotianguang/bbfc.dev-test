@@ -177,7 +177,8 @@
   text-indent:-9999px;
   width:175px;
   height:37px;
-  background:url(/logo.png)
+  background:url(/logo.png);
+  background-size:cover;
 }
 .DocSearch{
   --docsearch-primary-color:var(--docsearch-primary-color) !important;
