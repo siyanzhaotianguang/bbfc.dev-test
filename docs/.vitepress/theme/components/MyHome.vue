@@ -173,6 +173,12 @@
   --c-brand-light: #5688ff;
   --docsearch-primary-color: #4a78f7;
 }
+.nav-bar-title>*{
+  display:none;
+}
+.nav-bar-title>img{
+  display:block;
+}
 .logo{
   height: 100% !important;
 }
