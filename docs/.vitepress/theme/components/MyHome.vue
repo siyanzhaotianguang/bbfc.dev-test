@@ -149,7 +149,7 @@
             </div>
           </div>
         </div>
-        <a class="more" href="#">了解更多 ></a>
+        <a class="more" href="/blog/">了解更多 ></a>
       </div>
     </section>
   </main>
@@ -173,16 +173,16 @@
   --c-brand-light: #5688ff;
   --docsearch-primary-color: #4a78f7;
 }
-.nav-bar-title{
-  text-indent:-9999px;
-  width:175px;
-  height:37px;
-  background:url(/logo.png);
-  background-size:cover;
+.nav-bar-title {
+  text-indent: -9999px;
+  width: 175px;
+  height: 37px;
+  background: url(/logo.png);
+  background-size: cover;
 }
-.DocSearch{
-  --docsearch-primary-color:var(--docsearch-primary-color) !important;
-  --docsearch-highlight-color:var(--docsearch-primary-color) !important;
+.DocSearch {
+  --docsearch-primary-color: var(--docsearch-primary-color) !important;
+  --docsearch-highlight-color: var(--docsearch-primary-color) !important;
 }
 </style>
 <style scoped>

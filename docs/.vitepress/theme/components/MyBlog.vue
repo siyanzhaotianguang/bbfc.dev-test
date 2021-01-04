@@ -29,7 +29,8 @@ import { ref, onMounted, nextTick } from 'vue'
 const itemsPoll = [
   {
     url: '/blog/01',
-    title: 'Breath of Fresh Air in the Morning',
+    title:
+      '很长的标题会怎么样呢？？？？？？？Breath of Fresh Air in the Morning很长的标题会怎么样呢？？？？？？？很长的标题会怎么样呢？？？？？？？te. This will render as a tag in the page HTML. Note that the lang attribute will only be added when building the site via vitepress',
     img: '/posts/1.jpg',
     content: `The lang attribute for the site. This will render as a tag in the page HTML. Note that the lang attribute will only be added when building the site via vitepress build. You will not see this rendered during vitepress dev.`
   },
