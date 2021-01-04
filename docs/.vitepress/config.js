@@ -12,8 +12,8 @@ module.exports = {
     lastUpdated: '最近更新',
 
     algolia: {
-      apiKey: 'c57105e511faa5558547599f120ceeba',
-      indexName: 'vitepress'
+      apiKey: '5d42198c0c46b52f3bb45b0185a72c45',
+      indexName: 'bfcc.dev'
     },
 
     // carbonAds: {
