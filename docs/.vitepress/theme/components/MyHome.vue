@@ -166,6 +166,7 @@
 </template>
 
 <script setup lang="ts">
+document
 </script>
 
 <style global>
@@ -173,6 +174,9 @@
   --c-brand: #4A78F7;
   --c-brand-light: #5688ff;
   --docsearch-primary-color:#4A78F7;
+}
+.DocSearch{
+  --docsearch-highlight-color:var(--docsearch-primary-color);
 }
 </style>
 <style scoped>
