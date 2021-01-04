@@ -1,17 +1,7 @@
 <template>
   <main class="page">
     <div class="container">
-      <slot name="top" />
-
-      <!-- <div class="content">
-        <Content />
-      </div> -->
-
-      <!-- <PageFooter /> -->
-
-      <NextAndPrevLinks />
-
-      <slot name="bottom" />
+    div.post-list+div.
     </div>
   </main>
 </template>
