@@ -109,7 +109,7 @@
         <div class="description">RECOMMEND</div>
         <div class="recommend-articles">
           <div class="recommend-item">
-            <div class="img"></div>
+            <div class="img-container"><img src="",alt=""/></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统sdfsdfs
             </div>
@@ -119,7 +119,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img"></div>
+            <div class="img-container"><img src="",alt=""/></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统ssss
             </div>
@@ -129,7 +129,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img"></div>
+            <div class="img-container"><img src="",alt=""/></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统
             </div>
@@ -139,7 +139,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img"></div>
+            <div class="img-container"><img src="",alt=""/></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统
             </div>
@@ -509,11 +509,20 @@ section {
   cursor: pointer;
 }
 
-.recommend-item .img {
+.recommend-item .img-container {
   width: 216px;
   height: 130px;
+  overflow: hidden;
   margin-bottom: 20px;
-  background: #d8d8d8;
+  background: #D8D8D8;
+}
+
+.recommend-item .img-container img{  
+    cursor: pointer;  
+    transition: all 0.5s; /* 所有的属性变化在0.5s的时间段内完成 */
+}  
+.recommend-item:hover  .img-container img{
+    transform: scale(1.2);
 }
 
 
@@ -546,9 +555,7 @@ section {
   -webkit-box-orient: vertical;
 }
 
-.recommend-item:hover .recommend-item-name{
-  font-size:17px;
-}
+
 
 
 .recommend .more {
