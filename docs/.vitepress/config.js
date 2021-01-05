@@ -60,7 +60,7 @@ function getAPISidebar () {
       children: [
         {
           text: '1.接口用途及参数',
-          link: '/02.api/1'
+          link: '/02.api/'
         },
         {
           text: '2.接口的调用方式以及示例',
