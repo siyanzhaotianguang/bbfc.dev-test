@@ -506,6 +506,7 @@ section {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 .recommend-item .img {
@@ -513,8 +514,6 @@ section {
   height: 130px;
   margin-bottom: 20px;
   background: #d8d8d8;
-  cursor: pointer;
-  transition: all 0.6s;
 }
 
 
@@ -530,6 +529,7 @@ section {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  transition: all 0.08s;
 }
 
 .recommend-item .recommend-item-des {
@@ -547,12 +547,9 @@ section {
 }
 
 .recommend-item:hover .recommend-item-name{
-  font-size:18px;
+  font-size:17.5px;
 }
 
-.recommend-item:hover .recommend-item-des{
-  font-size:16px;
-}
 
 .recommend .more {
   margin-top: 35px;
