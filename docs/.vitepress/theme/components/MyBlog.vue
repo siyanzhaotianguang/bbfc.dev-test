@@ -2,9 +2,9 @@
   <main class="page">
     <div class="container">
       <div class="item" v-for="item in items" :key="item">
-        <a :href="item.url" class="feature-img"
+        <!-- <a :href="item.url" class="feature-img"
           ><img v-if="item.img" :src="item.img"
-        /></a>
+        /></a> -->
         <div class="content">
           <h2>
             <a :href="item.url">{{ item.title }}</a>
