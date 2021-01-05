@@ -109,7 +109,7 @@
         <div class="description">RECOMMEND</div>
         <div class="recommend-articles">
           <div class="recommend-item">
-            <div class="img-container"><img src="",alt=""/></div>
+            <div class="img-container"><img src="" ,alt="" /></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统sdfsdfs
             </div>
@@ -119,7 +119,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img-container"><img src="",alt=""/></div>
+            <div class="img-container"><img src="" ,alt="" /></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统ssss
             </div>
@@ -129,7 +129,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img-container"><img src="",alt=""/></div>
+            <div class="img-container"><img src="" ,alt="" /></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统
             </div>
@@ -139,7 +139,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img-container"><img src="",alt=""/></div>
+            <div class="img-container"><img src="" ,alt="" /></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统
             </div>
@@ -183,6 +183,11 @@
 .DocSearch {
   --docsearch-primary-color: var(--docsearch-primary-color) !important;
   --docsearch-highlight-color: var(--docsearch-primary-color) !important;
+}
+p > img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 </style>
 <style scoped>
@@ -514,17 +519,16 @@ section {
   height: 130px;
   overflow: hidden;
   margin-bottom: 20px;
-  background: #D8D8D8;
+  background: #d8d8d8;
 }
 
-.recommend-item .img-container img{  
-    cursor: pointer;  
-    transition: all 0.5s; /* 所有的属性变化在0.5s的时间段内完成 */
-}  
-.recommend-item:hover  .img-container img{
-    transform: scale(1.2);
+.recommend-item .img-container img {
+  cursor: pointer;
+  transition: all 0.5s; /* 所有的属性变化在0.5s的时间段内完成 */
 }
-
+.recommend-item:hover .img-container img {
+  transform: scale(1.2);
+}
 
 .recommend-item .recommend-item-name {
   width: 216px;
@@ -554,9 +558,6 @@ section {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-
-
-
 
 .recommend .more {
   margin-top: 35px;
