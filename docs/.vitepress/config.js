@@ -31,44 +31,41 @@ module.exports = {
     ],
 
     sidebar: {
-      '/01.guide/': getGuideSidebar(),
+      '/01.guide/': 'auto',
       '/02.api/': getAPISidebar()
     }
   }
 }
 
-function getGuideSidebar () {
-  return [
-    {
-      text: '指南',
-      children: [
-        { text: '简介', link: '/01.guide/01.intro' },
-        { text: '阅读对象', link: '/01.guide/02.user' },
-        { text: '运行安装', link: '/guide/configuration' },
-        { text: '节点部署', link: '/guide/assets' },
-        { text: '常见问题', link: '/guide/markdown' },
-        { text: '名词解释', link: '/guide/deploy' }
-      ]
-    }
-  ]
-}
+// function getGuideSidebar () {
+//   return [
+//     {
+//       text: '指南',
+//       children: [
+//         { text: '简介', link: '/01.guide/01.intro' },
+//         { text: '阅读对象', link: '/01.guide/02.user' },
+//         { text: '运行安装', link: '/guide/configuration' },
+//         { text: '节点部署', link: '/guide/assets' },
+//         { text: '常见问题', link: '/guide/markdown' },
+//         { text: '名词解释', link: '/guide/deploy' }
+//       ]
+//     }
+//   ]
+// }
 
 function getAPISidebar () {
   return [
     {
-      text: '接口列表',
+      text: 'API 参考',
       children: [
-        { text: '入参出参实例', link: '/config/basics' },
-        { text: '基础使用', link: '/config/basics' },
-        { text: '发送事件', link: '/config/basics' }
-      ]
-    },
-    {
-      text: '调用实例',
-      children: [
-        { text: '1. 命令行工具', link: '/config/homepage' },
-        { text: '2. Websocket', link: '/config/algolia-search' },
-        { text: '3. Grpc', link: '/config/carbon-ads' }
+        {
+          text: '1.接口用途及参数',
+          link: '/02.api/1'
+        },
+        {
+          text: '2.接口的调用方式以及示例',
+          link: '/02.api/2'
+        }
       ]
     }
   ]
