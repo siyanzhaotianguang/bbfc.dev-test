@@ -37,6 +37,29 @@ module.exports = {
   }
 }
 
+function getAPISidebar () {
+  return [
+    {
+      text: '接口列表',
+      children: [
+        { text: '接口传入参数和返回参数说明', link: '/02.api/1.1' },
+        { text: '基础接口使用说明', link: '/02.api/1.2' },
+        { text: '发送事件接口使用说明', link: '/02.api/1.3' },
+        { text: '节点管理接口使用说明', link: '/02.api/1.4' }
+      ]
+    },
+    {
+      text: '调用方式以及示例',
+      children: [
+        { text: '命令行工具', link: '/02.api/2.1' },
+        { text: 'Websocket', link: '/02.api/2.2' },
+        { text: 'Grpc', link: '/02.api/2.3' },
+        { text: 'SDK', link: '/02.api/2.4' }
+      ]
+    }
+  ]
+}
+
 // function getGuideSidebar () {
 //   return [
 //     {
@@ -52,21 +75,3 @@ module.exports = {
 //     }
 //   ]
 // }
-
-function getAPISidebar () {
-  return [
-    {
-      text: 'API 参考',
-      children: [
-        {
-          text: '1.接口用途及参数',
-          link: '/02.api/'
-        },
-        {
-          text: '2.接口的调用方式以及示例',
-          link: '/02.api/2'
-        }
-      ]
-    }
-  ]
-}
