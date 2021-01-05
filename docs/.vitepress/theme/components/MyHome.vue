@@ -529,7 +529,7 @@ section {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  transition: all 0.08s;
+  transition: all 60ms;
 }
 
 .recommend-item .recommend-item-des {
@@ -547,7 +547,7 @@ section {
 }
 
 .recommend-item:hover .recommend-item-name{
-  font-size:17.5px;
+  font-size:17px;
 }
 
 
