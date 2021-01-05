@@ -514,12 +514,9 @@ section {
   margin-bottom: 20px;
   background: #d8d8d8;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.6s;
 }
-.recommend-item .img:hover {
-  transform: scale(1.04);
-  z-index: 999;
-}
+
 
 .recommend-item .recommend-item-name {
   width: 216px;
@@ -547,6 +544,14 @@ section {
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+.recommend-item:hover .recommend-item-name{
+  font-size:18px;
+}
+
+.recommend-item:hover .recommend-item-des{
+  font-size:16px;
 }
 
 .recommend .more {
