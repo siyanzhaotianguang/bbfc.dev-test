@@ -109,7 +109,7 @@
         <div class="description">RECOMMEND</div>
         <div class="recommend-articles">
           <div class="recommend-item">
-            <div class="img-container"><img src="" ,alt="" /></div>
+            <div class="img-container"><img src="/blog/image/1.png" /></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统sdfsdfs
             </div>
@@ -119,7 +119,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img-container"><img src="" ,alt="" /></div>
+            <div class="img-container"><img src="/blog/image/1.png" /></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统ssss
             </div>
@@ -129,7 +129,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img-container"><img src="" ,alt="" /></div>
+            <div class="img-container"><img src="/blog/image/1.png" /></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统
             </div>
@@ -139,7 +139,7 @@
             </div>
           </div>
           <div class="recommend-item">
-            <div class="img-container"><img src="" ,alt="" /></div>
+            <div class="img-container"><img src="/blog/image/1.png" /></div>
             <div class="recommend-item-name">
               BFChain3.1.0支持的操作系统
             </div>
