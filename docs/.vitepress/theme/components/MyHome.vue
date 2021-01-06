@@ -108,7 +108,7 @@
         <div class="title">推荐</div>
         <div class="description">RECOMMEND</div>
         <div class="recommend-articles">
-          <div class="recommend-item">
+          <a class="recommend-item" href="/blog/03">
             <div class="img-container"><img src="/blog/image/1.png" /></div>
             <div class="recommend-item-name">
               生物链林BFChain的共识机制有什么独到之处？
@@ -116,8 +116,8 @@
             <div class="recommend-item-des">
               共识（Consensus），即达成一致的意见。自人类协作关系产生起，共识就已诞生。一个正常运转的...
             </div>
-          </div>
-          <div class="recommend-item">
+          </a>
+          <a class="recommend-item" href="/blog/04">
             <div class="img-container"><img src="/blog/image/1.png" /></div>
             <div class="recommend-item-name">
               生物链林的技术特性和优势
@@ -126,8 +126,8 @@
               两大特性及优势：“完全自主化研发的区块链底层基础设施” 和
               “移动区块链赋能实体企业数字化转型”...
             </div>
-          </div>
-          <div class="recommend-item">
+          </a>
+          <a class="recommend-item" href="/blog/05">
             <div class="img-container"><img src="/blog/image/1.png" /></div>
             <div class="recommend-item-name">
               BFChain首创的移动端点对点通信方案，到底厉害在哪？
@@ -136,8 +136,8 @@
               区块链技术打破传统互联网的诸多限制，其中一点，是P2P（peer to
               peer，即点对点）的通信方式...
             </div>
-          </div>
-          <div class="recommend-item">
+          </a>
+          <a class="recommend-item" href="/blog/06">
             <div class="img-container"><img src="/blog/image/1.png" /></div>
             <div class="recommend-item-name">
               揭秘BFChain如何破解移动端区块链三大技术难题？
@@ -145,7 +145,7 @@
             <div class="recommend-item-des">
               BFChain作为全球第一条基于移动端的公有链，真正实现了移动端直连区块链并参与链上治理...
             </div>
-          </div>
+          </a>
         </div>
         <a class="more" href="/blog/">了解更多 ></a>
       </div>
@@ -510,6 +510,7 @@ section {
   align-items: center;
   margin-top: 40px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .recommend-item .img-container {
